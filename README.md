@@ -1,2 +1,5 @@
 # sandbox
-For testing.
+## git
+- [ ] Pull requestをトライ
+## JIRA
+- [ ] JIRAとGitHubをリンク
