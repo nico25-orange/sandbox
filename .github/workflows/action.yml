@@ -1,0 +1,14 @@
+name: Greet Everyone
+on: push
+
+jobs:
+  build:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+         # GithubコミュニティのActionを使う
+        uses: actions/hello-world-javascript-action@v1
+         # withはactionへの入力パラメータのkey/valueのペア
+        with:
+          who-to-greet: "hoge"
