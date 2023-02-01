@@ -1,0 +1,11 @@
+{
+    "indentRainbow.colorOnWhiteSpaceOnly": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "editor.minimap.showSlider":"always",
+    "editor.minimap.renderCharacters":false,
+    "terminal.integrated.scrollback": 1000
+}
