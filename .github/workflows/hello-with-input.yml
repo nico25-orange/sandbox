@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       my_hello_input:
-        description: 'hello input'
+        description: 'Hello input'
         required: true
-        default: 'this is a default hello input'
+        default: 'This is a default hello input'
 
 jobs:
   hello_job:
     runs-on: ubuntu-18.04
     steps:
-      - run: echo "hello, ${{ github.event.inputs.my_hello_input }}" >> $GITHUB_STEP_SUMMARY
+      - run: echo "Hello, ${{ github.event.inputs.my_hello_input }}" >> $GITHUB_STEP_SUMMARY
